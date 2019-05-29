@@ -1,0 +1,111 @@
+.vertical_slider{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 27px 0;
+    position: relative;
+}
+
+.vs{
+    
+	position: relative;
+    width: 72.6% !important;
+    margin-top: 57px;
+    margin-left: 122px;
+	padding: 20px 60px 27px 30px;
+	background-color: #fff;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    color: #78909c;
+	font-size: 15px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 25px;
+	text-align: left;
+}
+
+.vertical_slider .slick-track{
+    max-width: 830px !important;
+}
+
+.vertical_slider .slick-list{
+    overflow: hidden;
+    padding-bottom: 34px;
+    display: flex;
+    align-content: flex-end;
+}
+
+.john:before{
+	position: absolute;
+	content: '';
+	background-image: url(../img/man.png);
+	height: 60px;
+	width: 60px;
+	top: 32%;
+	left: -17%;
+}
+
+.khalessi:before{
+    position:absolute;
+	content:'';
+    background-image: url(../img/girl.png);
+    height: 60px;
+	width: 60px;
+	top: 32%;
+	left: -17%;
+}
+
+.vertical_slider .slick-slide{
+    padding-bottom: 13px;
+    outline: none;
+    cursor: pointer;
+}
+
+.vs::first-line{
+	color: #061e37;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 45px;
+	font-style: normal;
+	margin: 0;
+	
+	
+}
+
+
+.next_arrow::before{
+    display: inline-block;
+    position: absolute;
+    content: "\f077";
+    font-family: "Font Awesome 5 Free";
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 25px;
+    cursor: pointer;
+    color: #fff;
+    top: 5%;
+    left: 57%;
+    transition: 0.3s;
+}
+
+.prev_arrow::before{
+    display: inline-block;
+    position: absolute;
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 25px;
+    cursor: pointer;
+    color: #fff;
+    bottom: 5%;
+    left: 57%;
+    z-index: 2;
+    transition: 0.3s;
+} 
+
+
+
+
+
+
+
