@@ -1,0 +1,93 @@
+
+.stats_block{
+	display: block;
+	position: relative;
+	width: 25%;
+	padding: 75px 0;
+	transition: 0.3s;
+}
+
+.business{
+	background-color: #80d8ff;
+}
+
+.downloads{
+	background-color: #82b1ff;
+}
+
+.installs{
+	background-color: #b388ff;
+}
+
+.users{
+	background-color: #ea80fc;
+}
+
+.stats_hover:hover{
+	width: 40%;	
+	opacity: 0.95;
+}
+
+.stats_info{
+	position: absolute;
+	font-size: 20px;	
+	color: #fff;
+	font-weight: 700;	
+	line-height: 25px;
+}
+
+.business_info{
+	left: 50%;
+	top: 35%;
+}
+
+.downloads_info{
+	left: 45%;
+	top: 35%;	
+}
+
+.installs_info{
+	left: 45%;
+	top: 35%;
+}
+
+.users_info{
+	left: 43%;
+	top: 35%;
+}
+
+.stats_icon{
+	font-family: 'Material Icons';
+	position: absolute;
+	line-height: 60px;
+	font-size: 30px;
+	height: 60px;
+	width: 60px;		
+	border-radius: 100%;
+	background-color:#fff;
+	text-align: center;
+}
+
+.downloads_icon{
+	color: #82b1ff;
+	left: 25%;
+	top: 30%;		
+}
+
+.installs_icon{
+	color: #b388ff;
+	left: 25%;
+	top: 30%;		
+}
+
+.business_icon{
+	color: #80d8ff;
+	left: 30%;
+	top: 30%;		
+}
+
+.users_icon{
+	color: #ea80fc;
+	left: 23%;
+	top: 30%;	
+}
