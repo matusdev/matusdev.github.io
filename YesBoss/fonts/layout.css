@@ -1,0 +1,505 @@
+@font-face {
+    font-family: 'Elektra Light Pro';
+    src: url('ElektraLightPro-Bold.eot');
+    src: url('ElektraLightPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ElektraLightPro-Bold.woff2') format('woff2'),
+        url('ElektraLightPro-Bold.woff') format('woff'),
+        url('ElektraLightPro-Bold.ttf') format('truetype'),
+        url('ElektraLightPro-Bold.svg#ElektraLightPro-Bold') format('svg');
+    
+}
+
+@font-face {
+    font-family: 'Elektra Light Pro';
+    src: url('ElektraLightPro.eot');
+    src: url('ElektraLightPro.eot?#iefix') format('embedded-opentype'),
+        url('ElektraLightPro.woff2') format('woff2'),
+        url('ElektraLightPro.woff') format('woff'),
+        url('ElektraLightPro.ttf') format('truetype'),
+        url('ElektraLightPro.svg#ElektraLightPro') format('svg');
+    
+}
+
+body{
+    font-family: 'Elektra Light Pro' ,arial,  sans-serif ;
+    margin: 0; 
+    padding:0 20px;
+    
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background: #fff;
+    top: 0;
+}
+.logo{
+    padding-top:20px;
+}
+.logo p{
+
+    font-size: 11px;
+    padding-bottom: : 10px;
+}
+
+.title-first{
+    display: flex;
+    flex-direction: column;
+}
+.title-first hr{
+    border: none;
+    background-color:#f7e300;
+    height: 2px;
+    margin-top: 3px;
+    
+}
+.title {
+    
+    margin: 0 auto;
+    padding:18px 0 0 0;
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+    letter-spacing: 0.65px;
+}
+.title-first span{
+    font-weight: bold;
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 800px){
+    .menu{
+        margin: 0 auto; 
+        padding-bottom: 20px;
+    }
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #666666;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    background: #f7e300;
+    box-sizing: border-box;
+}
+
+.search_number{
+    display: flex;
+}
+
+@media(max-width: 800px){
+    .search_number{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+ input[type="search"]{
+    text-transform: uppercase;
+    padding: 20px 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: text;
+    font-size:  14px;
+    font-style:'Elektra Light Pro' ;   
+    
+}
+
+input[type="submit"]{
+    background: url(../img/search.png) no-repeat;
+    width: 40px; 
+    height: 20px;
+    border: none;
+
+}
+
+
+
+.number-phone{
+    color: #666666;
+    padding:10px 0 0 20px;
+    font-size: 30px;
+}
+
+ .title hr{
+    border: none;
+    background-color:#f7e300;
+    height: 2px;
+    margin-top: 3px;
+}
+main hr{
+    border: none;
+    background-color: #f4f6f4;
+    height: 1px;
+}
+.case{
+    text-align: center;
+}
+.case ul{
+    list-style: none;
+    display: flex;
+}
+
+.case ul li {
+    font-size: 13px;
+    color: blue;
+    padding: 5px 5px 0 5px;
+}
+
+
+input[type="text"]{
+    border: none;
+    outline: none;
+    
+
+}
+input[type="text"]::-webkit-input-placeholder{
+    color: #ccc;
+    font-family: 'Elektra Light Pro';
+}
+
+#cnt{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+#img_cnt{
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+.contents{
+    padding: 10px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    flex-wrap: wrap; 
+}
+@media(max-width: 800px){
+    .contents{
+        width: 600px;
+        padding: 20px 0;
+
+    }
+}
+
+.content1{
+    font-size:20px;
+    font-weight: bold;
+    color: #666666;
+    box-sizing: border-box;
+    border: yellow solid;
+    border-width: 5px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 15px;
+    position: relative;
+     
+}
+
+.content1:before { 
+    content: ' '; 
+    position: absolute; 
+    width: 0; 
+    height: 0; 
+    left: -5px; 
+    top: 100px; 
+    border: 25px solid; 
+    border-color: yellow transparent transparent yellow; 
+}
+.content1:after { 
+    content: ' '; 
+    position: absolute; 
+    width: 0; 
+    height: 0; 
+    left: 0px; 
+    top: 90px; 
+    border: 24px solid; 
+    border-color: #fff transparent transparent #fff; 
+}
+
+
+.content1 p{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+
+
+  
+}
+.content2 {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 55px 0;
+    color: #666666;
+    line-height: 20px;
+}
+.content3{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.content3 p{
+    font-weight: 400;
+    text-transform: none;
+    line-height: 20px;
+    
+}
+
+#services{
+    display: flex;
+    background-color: #f4f6f4;  
+}
+
+
+.services_offer{
+    
+    position: relative;
+    width: 50%;
+}
+.services_offer:before { 
+    content: ' '; 
+    position: absolute; 
+    width: 0; 
+    height: 0; 
+    right:-30px; 
+    top: 20px; 
+    border-top: 35px solid yellow; 
+    border-right: 35px solid transparent; 
+}
+.services_offer:after { 
+    content: ' '; 
+    position: absolute; 
+    width: 0; 
+    height: 0; 
+    right:-20px; 
+    top: 25px; 
+    border-top: 28px solid #fff; 
+    border-right: 28px solid transparent; 
+}
+
+.services_offer p{
+    color:#666;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: yellow solid 5px;
+    text-align: left;
+    padding: 15px;
+    background:#fff;
+
+}
+
+.services_offer span{
+    font-weight: bold;
+}
+
+.services_list{
+    width: 40%;
+    padding: 15px 0 15px 30px;
+
+}
+.services_list ul{
+    list-style: none;
+    line-height: 20px;
+    font-size:14px;
+    
+}
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 800px){
+    #contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+#contact img{
+    height: 300px;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+
+}
+.contact_image_1 {
+    position: relative; 
+} 
+.contact_image_1 p{
+    color: #fff;
+    position: absolute;
+    bottom:5px;
+    left: 20px;
+} 
+
+.contact_image_1 p span{
+    font-weight: bold;
+    font-size: 18px;
+}    
+
+.contact_image_2 {
+    position: relative; 
+} 
+.contact_image_2 p{
+    color: #666;
+    position: absolute;
+    max-width: 60%;
+    bottom:80px;
+    left: 80px;
+    font-size: 14px;
+    
+} 
+
+.contact_image_2 p span{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}  
+
+
+.order ul{
+    list-style: none;
+}
+
+.order li{
+    padding: 15px;
+}
+
+.order input[type="text"]{
+    border: none;
+    outline: none;
+
+}
+
+.order input[type="text"]::-webkit-input-placeholder{
+    color: #ccc;
+    font-family: 'Elektra Light Pro';
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.order input[type="tel"]{
+    border: none;
+    outline: none;
+
+}
+
+.order input[type="tel"]::-webkit-input-placeholder{
+    color: #ccc;
+    font-family: 'Elektra Light Pro';
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.order p{
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+.button{
+    display: block;
+    background: #2867db;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.button:hover{
+    background: yellow;
+    color: #666;
+    font-weight:    bold;
+
+}
+
+footer{
+    display: flex;
+    background: #f4f6f4;
+    justify-content: space-between;
+
+
+
+}
+
+.logo_footer{
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+.footer_list_style ul{
+    list-style: none;
+    line-height: 30px;
+
+}
+.footer_list_style li{
+    text-transform: uppercase;
+    color: #666;
+    font-size:  14px;
+    font-weight: bold;
+
+}
+.footer_list_style li a{
+    font-size:  14px;
+    color: blue;
+    text-transform: none;
+    font-weight:400;
+    padding: 10px;
+}
+ .sosial_icons ul{
+    display: flex;
+    padding: 0;
+
+ }
+  .sosial_icons ul li{
+    padding: 20px 5px;
+    position: relative;
+    
+ }
+
+ @media(max-width: 800px){
+    .sosial_icons ul{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+}
+@media(max-width: 800px){
+    .sosial_icons ul li{
+        padding: 5px 0; 
+        align-items: center;    
+    }
+}
+
+
+
+
+    
+    
