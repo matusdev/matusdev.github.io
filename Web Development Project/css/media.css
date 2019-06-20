@@ -1,0 +1,158 @@
+@media(max-width:992px){
+
+    .heading {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+
+    .service,
+    .works,
+    .pricing,
+    .team,
+    .blog,
+    .contact
+    {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .team .slick-slider {
+        height: 500px;
+    }
+}
+
+@media(max-width:767px){
+
+    .heading {
+        padding-bottom: 100px;
+    }
+
+    .heading__title {
+        line-height: 70px;
+    }
+
+    .about{
+        padding-bottom: 50px;
+    }
+
+    .feature{
+        margin-bottom: 50px;
+    }
+
+    .title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .works__buttons {
+        margin-bottom: 50px;
+    }
+
+    .works__btn{
+        padding: 15px !important;
+        font-size: 14px;
+    }
+
+    .order {
+        margin-bottom: 50px;
+    }
+
+    .order__header {
+        background-size: 100%;
+    }
+
+    .blog__img{
+        display: none;
+    }
+
+    .row .contact__items{
+        margin-bottom: 60px;
+    }
+
+    .team .slick-slider {
+        height: 650px;
+    }
+
+    .blog__button {
+        margin: 50px auto 0;
+    }
+
+    .contact__submit{
+        justify-content: center !important;
+    }
+}
+
+@media(max-width:575px){
+
+    .heading {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .heading__buttons {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin: 0 auto 30px;
+    }
+
+    .button_service,
+    .button_hire,
+    .works__button,
+    .blog__button {
+        padding: 15px;
+    }
+
+    .button{
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}  
+
+
+@media(max-width:414px){
+
+    .heading {
+        padding-top: 150px;
+    }
+
+    .heading__title {
+        display: none;
+    }
+
+    .team .slick-slider {
+        height: 550px;
+    }
+
+    .works__buttons {
+        display: flex !important;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .works__btn{
+        margin: 10px 0;
+    }
+}
+
+@media(max-width:375px){
+
+    .order__header{
+        padding-top: 30px;
+    }
+
+    .team .slick-slider {
+        height: 500px;
+    }
+}
+
+@media(max-width:320px){
+
+    .team .slick-slider {
+        height: 450px;
+    }
+}
