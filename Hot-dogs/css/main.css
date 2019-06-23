@@ -19,6 +19,7 @@ body {
       padding-right: 10px;
       padding-left: 10px; }
       body .navbar .nav-item .nav-link {
+        cursor: pointer;
         transition: .3s;
         color: #2e2e2e !important;
         font-size: 20px;
