@@ -93,7 +93,7 @@ body {
     .footer .footer__body .footer__copyright, .footer .footer__body .footer__contact {
       font-size: 14px;
       font-weight: 400; }
-      .footer .footer__body .footer__copyright .footer__link, .footer .footer__body .footer__contact .footer__link {
+      .footer .footer__body .footer__copyright, .footer .footer__body .footer__contact .footer__link {
         display: inline-block;
         color: #555559; }
         .footer .footer__body .footer__copyright .footer__link:hover, .footer .footer__body .footer__contact .footer__link:hover {
