@@ -153,4 +153,7 @@ body {
     margin: 8px 0;
     text-align: center; } }
 
+@media screen and (max-width: 576px) {
+  .heading__button {
+    font-size: 14px !important; } }
 /*# sourceMappingURL=main.css.map */
