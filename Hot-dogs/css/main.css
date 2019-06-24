@@ -18,6 +18,11 @@ body {
     body .navbar .nav-item {
       padding-right: 10px;
       padding-left: 10px; }
+      .navbar-brand{
+        display:none;
+        color: #212121 !important;
+        font-size: 25px !important;
+        font-weight: 700 !important;}
       body .navbar .nav-item .nav-link {
         cursor: pointer;
         transition: .3s;
@@ -144,6 +149,9 @@ body {
     padding-bottom: 80px !important; }
   .navbar {
     padding-left: 50px; }
+    .navbar-brand{
+      display: inline-block;
+  }
   .heading, .range, .footer {
     padding: 0 30px; }
   .footer__contact {
