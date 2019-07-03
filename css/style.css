@@ -59,6 +59,7 @@ hr{
     font-size: 20px;
     color: #000;
     text-decoration: none;
+    text-align: center;
     text-transform: uppercase;
     transition: 0.3s;
     font-weight: 500;
