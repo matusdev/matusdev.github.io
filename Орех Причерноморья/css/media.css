@@ -275,12 +275,11 @@
         padding-right: 10px;
         font-size: 10px;
     }
+    
     .heading iframe{
         height: 200px;
     }
-}
 
-@media(max-width:320px){
     .heading {
         padding-top: 60px;
         padding-bottom: 70px;
