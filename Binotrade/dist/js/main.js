@@ -13,19 +13,19 @@ $(document).ready((function() {
     }); 
     $('#itemsCard-1').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated bounceInLeft', 
-        offset: 300
+        offset: 50
     }); 
     $('#itemsCard-2').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated bounceInRight', 
-        offset: 300
+        offset: 50
     });
     $('#itemsCard-3').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated bounceInLeft', 
-        offset: 300
+        offset: 50
     });
     $('#itemsCard-4').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated bounceInRight', 
-        offset: 300
+        offset: 50
     });
 
     $('#myTab').addClass("hidden").viewportChecker({
