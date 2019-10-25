@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Handwerk New</title>
+    <title>Handwerk - Main</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
@@ -18,8 +18,8 @@
        <div class="container">
            <div class="row">
                <div class="menu">
-                   <nav class="navbar navbar-expand-xl navbar-light">
-                       <a href="#" class="logo">
+                   <nav class="navbar navbar-expand-xl navbar-light py-0">
+                       <a href="./index.html" class="logo">
                            <div class="logo__image">
                                <img src="svg/logo.svg" alt="logo">
                            </div>
@@ -36,19 +36,40 @@
                        <div id="my-nav" class="collapse navbar-collapse justify-content-end">
                            <ul class="navbar-nav">
                                <li class="menu__item">
-                                   <a class="menu__link" href="#">Why Handwerk Connected</a>
+                                   <a class="menu__link" href="./about.html">Why Handwerk Connected</a>
                                </li>
                                <li class="menu__item">
-                                   <a class="menu__link" href="#">Membership</a>
+                                   <a class="menu__link" href="./membership.html">Membership</a>
+                               </li>
+                               <li class="menu__item has-submenu">
+                                   <a class="menu__link" href="./team.html">Company
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7"><g><g><path d="M3.628.55a1 1 0 0 1 1.744 0l2.79 4.96A1 1 0 0 1 7.29 7H1.71a1 1 0 0 1-.872-1.49z"/></g></g></svg>
+                                   </a>
+                                   <ul class="submenu">
+                                       <li class="submenu__item">
+                                           <a href="./team.html" class="submenu__link">Team & Vision</a>
+                                       </li>
+                                       <li class="submenu__item submenuAccordion">Press
+                                           <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7"><g><g><path d="M3.628.55a1 1 0 0 1 1.744 0l2.79 4.96A1 1 0 0 1 7.29 7H1.71a1 1 0 0 1-.872-1.49z"/></g></g></svg>
+                                       </li>
+                                       <ul class="submenuAccordion__list">
+                                           <li class="submenuAccordion__item">
+                                               <a href="#" class="submenuAccordion__link">Releases</a>
+                                           </li>
+                                           <li class="submenuAccordion__item">
+                                               <a href="#" class="submenuAccordion__link">Review</a>
+                                           </li>
+                                       </ul>
+                                       <li class="submenu__item">
+                                           <a href="#" class="submenu__link">Become a part of our team</a>
+                                       </li>
+                                   </ul>
                                </li>
                                <li class="menu__item">
-                                   <a class="menu__link" href="#">Team & Vision</a>
+                                   <a class="menu__link" href="./contact.html">Contact</a>
                                </li>
                                <li class="menu__item">
-                                   <a class="menu__link" href="#">Press</a>
-                               </li>
-                               <li class="menu__item">
-                                   <a class="menu__link" href="#">Blog</a>
+                                   <a class="menu__link" href="./blog.html">Blog</a>
                                </li>
                            </ul>
                            <ul class="loginList">
@@ -120,7 +141,7 @@
        </section>
        <section class="advantages">
            <div class="container">
-               <div class="heading advantages__title">THE ADVANTAGES AT A GALANCE</div>
+               <div class="heading advantages__title">THE ADVANTAGES AT A GLANCE</div>
                <div class="row">
                    <div class="col-xl-2 displayFlex col-md-6 offset-xl-2">
                        <div class="advantagesItem">
@@ -131,7 +152,7 @@
                    <div class="col-xl-2 displayFlex col-md-6 offset-xl-1">
                        <div class="advantagesItem">
                            <img src="svg/advantages_item_2.svg" alt="" class="advantagesItem__icon">
-                           <p class="advantagesItem__text">Find employee capacities of different competences from the network for a certain period of time</p>
+                           <p class="advantagesItem__text">Find employee capacities of different competencies from the network for a certain period of time</p>
                        </div>
                    </div>
                    <div class="col-xl-2 displayFlex col-md-6 offset-xl-1">
@@ -230,7 +251,7 @@
                                <div class="feedbackCard__body">
                                    <div class="feedbackCard__company">Henkel</div>
                                    <div class="feedbackCard__name">Julian Müller</div>
-                                   <div class="feedbackCard__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                                   <div class="feedbackCard__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
                                </div>
                            </div>
                        </div>
@@ -262,6 +283,160 @@
                </div>
                <a href="#" class="feedback__button mainButtons">Further customer references</a>
            </div>
+       </section>
+       <section class="cooperation">
+           <div class="container">
+               <div class="heading cooperation__title">Six steps to succsessful cooperation</div>
+               <div class="accordion">
+                   <div class="accordionCard">
+                       <div class="cardHeader">
+                           <div class="cardTitle">
+                               <div class="cardTitle__img"><img src="svg/acc_step1.svg" alt=""/></div>
+                               <div class="cardTitle__text">
+                                   <div class="cardTitle__number">Step 01</div>
+                                   <div class="cardTitle__name">Sign up</div>
+                               </div>
+                               <i class="fas fa-chevron-down cardTitle__arrow">  </i>
+                           </div>
+                       </div>
+                       <div class="cardBlock">
+                           <div class="cardBlock__title">
+                               Register in just two minutes with your name and your company data</div>
+                           <ul class="cardBlock__list">
+                               <li class="cardBlock__item">After entering your personal data and your general company data, we will send you an email</li>
+                               <li class="cardBlock__item">Please confirm the link in the email, so that we know that it is you </li>
+                               <li class="cardBlock__item">Now you decide only if you want to get started with our basic membership, or if you want to use all benefits of the Plus membership directly and you can start in the member area</li>
+                           </ul>
+                           <div class="cardBlock__paragpaph">Click here for our<a href="#"> terms and conditions</a> and our<a href="#"> privacy policy</a></div>
+                           <div class="cardBlock__info">
+                               <div class="info-text__title">Good to know!</div>
+                               <div class="info-text__text">The membership fees at Handwerk Connected are tax deductible</div>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="accordionCard">
+                       <div class="cardHeader">
+                           <div class="cardTitle">
+                               <div class="cardTitle__img"><img src="svg/acc_step2.svg" alt=""/></div>
+                               <div class="cardTitle__text">
+                                   <div class="cardTitle__number">Step 02</div>
+                                   <div class="cardTitle__name">Create your company profile</div>
+                               </div>
+                               <i class="fas fa-chevron-down cardTitle__arrow">  </i>
+                           </div>
+                       </div>
+                       <div class="cardBlock">
+                           <div class="cardBlock__title">
+                               Complete your company profile in the member area</div>
+                           <ul class="cardBlock__list">
+                               <li class="cardBlock__item">In order to be able to fully use Handwerk Connected, we still need some information about the competences in your company.</li>
+                               <li class="cardBlock__item"> With the aim of successful K, it is important to start all the necessary infor- opo operations, to deposit information such as expertise, manufacturer experience, etc. at the employee level.</li>
+                               <li class="cardBlock__item">This includes, among other things, the definition of the area in which you are looking for or would like to offer.</li>
+                           </ul>
+                           <div class="cardBlock__info">
+                                   <div class="info-text__title">Good to know!</div>
+                                   <div class="info-text__text">The membership fees at Handwerk Connected are tax deductible</div>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="accordionCard">
+                       <div class="cardHeader">
+                           <div class="cardTitle">
+                               <div class="cardTitle__img"><img src="svg/acc_step3.svg" alt=""/></div>
+                               <div class="cardTitle__text">
+                                   <div class="cardTitle__number">Step 03</div>
+                                   <div class="cardTitle__name">Search / Offer</div>
+                               </div>
+                               <i class="fas fa-chevron-down cardTitle__arrow">  </i>
+                           </div>
+                       </div>
+                       <div class="cardBlock">
+                           <div class="cardBlock__title">
+                               Specify which product or professional you are looking for or want to share on the network</div>
+                           <ul class="cardBlock__list">
+                               <li class="cardBlock__item">Now you can narrow down very narrowly which person with which qualification or which support from which foreign trade you want to search or offer temporarily</li>
+                               <li class="cardBlock__item">The filters refer to eg place of use, date of application, discipline and qualification. The complete overview of the filter options you will find after your registration in the members area</li>
+                           </ul>
+                           <div class="cardBlock__info">
+                                   <div class="info-text__title">Good to know!</div>
+                                   <div class="info-text__text">The membership fees at Handwerk Connected are tax deductible</div>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="accordionCard">
+                       <div class="cardHeader">
+                           <div class="cardTitle">
+                               <div class="cardTitle__img"><img src="svg/acc_step4.svg" alt=""/></div>
+                               <div class="cardTitle__text">
+                                   <div class="cardTitle__number">Step 04</div>
+                                   <div class="cardTitle__name">Select cooperation company</div>
+                               </div>
+                               <i class="fas fa-chevron-down cardTitle__arrow">  </i>
+                           </div>
+                       </div>
+                       <div class="cardBlock">
+                           <div class="cardBlock__title">
+                               Choose the offer that suits you or accept a request</div>
+                           <ul class="cardBlock__list">
+                               <li class="cardBlock__item">During the search you will be shown a list of companies that have the right offer for you. </li>
+                               <li class="cardBlock__item">You decide which company you want to contact.</li>
+                               <li class="cardBlock__item">If you have made an offer, the colleagues ask you directly and you decide with whom you would like to cooperate.</li>
+                           </ul>
+                       </div>
+                   </div>
+
+                   <div class="accordionCard">
+                       <div class="cardHeader">
+                           <div class="cardTitle">
+                               <div class="cardTitle__img"><img src="svg/acc_step5.svg" alt=""/></div>
+                               <div class="cardTitle__text">
+                                   <div class="cardTitle__number">Step 05</div>
+                                   <div class="cardTitle__name">Make contact </div>
+                               </div>
+                               <i class="fas fa-chevron-down cardTitle__arrow">  </i>
+                           </div>
+                       </div>
+                       <div class="cardBlock">
+                           <div class="cardBlock__title">
+                               Get in contact with your future cooperation partner</div>
+                           <ul class="cardBlock__list">
+                               <li class="cardBlock__item">Now contact us to discuss the details of your cooperation.</li>
+                               <li class="cardBlock__item">If it fits in personally and in terms of content, you can start.</li>
+                               <li class="cardBlock__item">The contact takes place, of course, only from owner to owner.</li>
+                           </ul>
+                           <div class="cardBlock__info">
+                                   <div class="info-text__title">Good to know!</div>
+                                   <div class="info-text__text">The membership fees at Handwerk Connected are tax deductible</div>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="accordionCard">
+                       <div class="cardHeader">
+                           <div class="cardTitle">
+                               <div class="cardTitle__img"><img src="svg/acc_step6.svg" alt=""/></div>
+                               <div class="cardTitle__text">
+                                   <div class="cardTitle__number">Step 06</div>
+                                   <div class="cardTitle__name">Specialists forum use</div>
+                               </div>
+                               <i class="fas fa-chevron-down cardTitle__arrow">  </i>
+                           </div>
+                       </div>
+                       <div class="cardBlock">
+                           <div class="cardBlock__title">
+                               Use the knowledge of others in the Specialist Forum</div>
+                           <ul class="cardBlock__list">
+                               <li class="cardBlock__item">Exchange with others about difficult issues and current topics from the craft</li>
+                               <li class="cardBlock__item">Stay up to date on news</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+               <a href="#" class="cooperation__button mainButtons">Join Now</a>
+            </div>
        </section>
        <section class="knownFrom">
            <div class="container">
@@ -313,12 +488,12 @@
        <div class="container">
            <div class="heading footer__title">HANDWERK CONNECTED SOLVES YOUR TOPICS?</div>
            <div class="row">
-               <div class="col-xl-3">
-                   <div class="footer__text">Sign up now, <br> it's takes 2 minutes! </div>
-               </div>
-               <div class="col-xl-3 offset-xl-1 col-md-7">
+               <div class="footerContent col-xl-7 col-md-6 offset-xl-1">
+                   <div class="footer__text">Sign up now, <br> it takes 2 minutes! </div>
+               <!--</div>-->
+               <!--<div class="col-xl-3 offset-xl-1 col-md-7">-->
                    <form class="footerForm">
-                       <input type="text" class="footerForm__input" id="footerFormName" name="name" placeholder="My Name is..." required>
+                       <input type="text" class="footerForm__input" id="footerFormName" name="name" pattern="[A-Za-z]" placeholder="My Name is..." required>
                        <label for="footerFormName"></label>
                        <input type="email" class="footerForm__input" id="footerFormEmail" name="email" placeholder="E-mail..." required>
                        <label for="footerFormEmail"></label>
@@ -328,7 +503,7 @@
                        <label for="footerFormSubmit"></label>
                    </form>
                </div>
-               <div class="col-xl-2 offset-xl-2 offset-md-1 col-md-4">
+               <div class="col-xl-2 offset-xl-1 offset-md-1 col-md-4">
                    <div class="footerContact">
                        <div class="footerContact__title">Handwerk Connected GmbH</div>
                        <ul class="footerContact__list">
@@ -365,8 +540,12 @@
                        </ul>
                    </div>
                </div>
+               <div class="col-xl-2 offset-xl-1">
+                   <div class="footer__privacyPolicy footer__privacyPolicy">
+                       I accept Handwerk's Privacy Policy and Terms and Conditions.
+                   </div>
+               </div>
            </div>
-           <div class="footer__privacyPolicy footer__privacyPolicy">I accept Handwerk's Privacy Policy and Terms and Conditions.</div>
            <ul class="footerImpressum">
                <li class="footerImpressum__item">
                    <a href="#" class="footerImpressum__link">Imprint</a>

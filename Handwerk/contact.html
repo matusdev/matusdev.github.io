@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Handwerk - Main</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="menu">
+                <nav class="navbar navbar-expand-xl navbar-light py-0">
+                    <a href="./index.html" class="logo">
+                        <div class="logo__image">
+                            <img src="svg/logo.svg" alt="logo">
+                        </div>
+                        <div class="logo__slogan">
+                            <img src="svg/slogan.svg" alt="slogan">
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div id="my-nav" class="collapse navbar-collapse justify-content-end">
+                        <ul class="navbar-nav">
+                            <li class="menu__item">
+                                <a class="menu__link" href="./about.html">Why Handwerk Connected</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="./membership.html">Membership</a>
+                            </li>
+                            <li class="menu__item has-submenu">
+                                <a class="menu__link" href="./team.html">Company
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7"><g><g><path d="M3.628.55a1 1 0 0 1 1.744 0l2.79 4.96A1 1 0 0 1 7.29 7H1.71a1 1 0 0 1-.872-1.49z"/></g></g></svg>
+                                </a>
+                                <ul class="submenu">
+                                    <li class="submenu__item">
+                                        <a href="./team.html" class="submenu__link">Team & Vision</a>
+                                    </li>
+                                    <li class="submenu__item submenuAccordion">Press
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7"><g><g><path d="M3.628.55a1 1 0 0 1 1.744 0l2.79 4.96A1 1 0 0 1 7.29 7H1.71a1 1 0 0 1-.872-1.49z"/></g></g></svg>
+                                    </li>
+                                    <ul class="submenuAccordion__list">
+                                        <li class="submenuAccordion__item">
+                                            <a href="#" class="submenuAccordion__link">Releases</a>
+                                        </li>
+                                        <li class="submenuAccordion__item">
+                                            <a href="#" class="submenuAccordion__link">Review</a>
+                                        </li>
+                                    </ul>
+                                    <li class="submenu__item">
+                                        <a href="#" class="submenu__link">Become a part of our team</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item active">
+                                <a class="menu__link" href="./contact.html">Contact</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="./blog.html">Blog</a>
+                            </li>
+                        </ul>
+                        <ul class="loginList">
+                            <li class="loginList__item">
+                                <a class="loginList__link" href="#">Login</a>
+                            </li>
+                            <li class="loginList__item">
+                                <button class="loginList__button">Registration</button>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="contact">
+        <div class="container">
+            <div class="contact__title heading">we are happy to contact you</div>
+            <div class="row">
+                <div class="col-lg-7 offset-lg-1">
+                    <form class="contactFields">
+                        <div class="select contactInput">
+                            <select id="contactFields__select" type="text">
+                                <option value="Salutation">Salutation</option>
+                                <option value="Mr">Mr.</option>
+                                <option value="Ms">Ms.</option>
+                            </select>
+                            <img src="svg/select.svg" alt="">
+                        </div>
+                        <div class="contactInput">
+                            <div class="contactInput__name contactInput--padding">
+                                <input id="contactInput__name" type="text" name="name" pattern="^[a-zA-Z]+$" placeholder="My Name is..." required>
+                                <label for="contactInput__name"></label>
+                            </div>
+                            <div class="contactInput__surname contactInput--padding">
+                                <input id="contactInput__surname" type="text" name="surname" pattern="^[a-zA-Z]+$" placeholder="My Surname is..." required>
+                                <label for="contactInput__surname"></label>
+                            </div>
+                            <div class="contactInput__email contactInput--padding">
+                                <input id="contactInput__email" type="email" name="email"  placeholder="My E-mail " required>
+                                <label for="contactInput__email"></label>
+                            </div>
+                            <div class="contactInput__phone contactInput--padding">
+                                <input id="contactInput__phone" type="tel" name="phone"  pattern="^[ 0-9]+${,15}" placeholder="My Phone " required>
+                                <label for="contactInput__phone"></label>
+                            </div>
+                            <div class="contactInput__company contactInput--padding">
+                                <input id="contactInput__company" type="text" name="company" pattern="^[a-zA-Z]+$" placeholder="My Company name " required>
+                                <label for="contactInput__company"></label>
+                            </div>
+                            <div class="contactInput__message contactInput--padding">
+                                <textarea name="message" id="contactInput__message" placeholder="My message"></textarea>
+                                <label for="contactInput__message"></label>
+                            </div>
+                        </div>
+                        <button class="contactInput__submit mainButtons" id="contactInput__submit" name="submit" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="contactConnection">
+                        <div class="footerContact">
+                            <div class="footerContact__title">Handwerk Connected GmbH</div>
+                            <ul class="footerContact__list">
+                                <li class="footerContact__item footerContactAdress">Friedhofstr.22 <br> 42929 Wermelskirchen</li>
+                                <li class="footerContact__item footerContactPhone">Tel:
+                                    <a href="tel:021968849660" class="footerContact__link"> 02196 88 49 660</a>
+                                </li>
+                                <li class="footerContact__item footerContactFax">Fax:
+                                    <a href="fax:021968849662" class="footerContact__link"> 02196 88 49 662</a>
+                                </li>
+                                <li class="footerContact__item footerContactEmail">Email:
+                                    <a href="mailto:info@handwerkconnected.de" class="footerContact__link"> info@handwerkconnected.de</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footerSocials">
+                            <div class="footerSocials__title">Follow us on:</div>
+                            <ul class="footerSocials__list">
+                                <li class="footerSocials__item">
+                                    <a href="#" class="footerSocials__link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37"><defs><linearGradient id="i9eya" x1="0" x2="37" y1=".1" y2="37.1" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e2e8e6"/><stop offset=".5" stop-color="#dbe6e9"/><stop offset="1" stop-color="#d8d8d8"/></linearGradient></defs><g><g><path fill="url(#i9eya)" d="M21.585 10.278c-.573 0-1.15.592-1.15 1.033v2.949h4.037c-.163 2.26-.497 4.329-.497 4.329h-3.561v12.814h-5.308V18.587h-2.583v-4.312h2.583v-3.526c0-.644-.13-4.96 5.438-4.96h3.933v4.49zM0 .096v37h37v-37z"/></g></g></svg>
+                                    </a>
+                                </li>
+                                <li class="footerSocials__item">
+                                    <a href="#" class="footerSocials__link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37"><defs><linearGradient id="ch08a" x1="0" x2="37" y1=".1" y2="37.1" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e2e8e6"/><stop offset=".5" stop-color="#dbe6e9"/><stop offset="1" stop-color="#d8d8d8"/></linearGradient></defs><g><g><path fill="url(#ch08a)" d="M31.308 30.834h-5.491v-8.836c0-2.219-.794-3.734-2.781-3.734-1.518 0-2.42 1.02-2.817 2.008-.144.353-.182.844-.182 1.339v9.223h-5.492s.073-14.966 0-16.515h5.492v2.34c.73-1.123 2.032-2.728 4.949-2.728 3.613 0 6.322 2.36 6.322 7.433zm-22.58-18.77c-1.842 0-3.036-1.268-3.036-2.854 0-1.62 1.229-2.853 3.108-2.853s3.034 1.233 3.07 2.853c0 1.586-1.191 2.855-3.106 2.855zm2.78 18.77h-5.49V14.32h5.49zM0 .096v37h37v-37z"/></g></g></svg>
+                                    </a>
+                                </li>
+                                <li class="footerSocials__item">
+                                    <a href="#" class="footerSocials__link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37"><defs><linearGradient id="f24sa" x1="0" x2="37" y1=".1" y2="37.1" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e2e8e6"/><stop offset=".5" stop-color="#dbe6e9"/><stop offset="1" stop-color="#d8d8d8"/></linearGradient></defs><g><g><path fill="url(#f24sa)" d="M27.797 31.721H21.59l-6.008-10.175L24.73 5.47h6.216l-9.147 16.076zM6.055 23.765l4.493-7.415-3.302-6.17h5.9l3.301 6.17-4.492 7.415zM0 .095v37h37v-37z"/></g></g></svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-lg-1">
+                <div class="contact__privacyPolicy">I accept Handwerk's Privacy Policy and Terms and Conditions.</div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <ul class="footerImpressum">
+            <li class="footerImpressum__item">
+                <a href="#" class="footerImpressum__link">Imprint</a>
+            </li>
+            <li class="footerImpressum__item">
+                <a href="#" class="footerImpressum__link">Privacy Policy</a>
+            </li>
+            <li class="footerImpressum__item">
+                <a href="#" class="footerImpressum__link">Terms and Conditions</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/slick.js"></script>
+</body>
+</html>

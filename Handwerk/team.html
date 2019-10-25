@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Handwerk - Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="menu">
+                    <nav class="navbar navbar-expand-xl navbar-light py-0">
+                        <a href="./index.html" class="logo">
+                            <div class="logo__image">
+                                <img src="svg/logo.svg" alt="logo">
+                            </div>
+                            <div class="logo__slogan">
+                                <img src="svg/slogan.svg" alt="slogan">
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <div id="my-nav" class="collapse navbar-collapse justify-content-end">
+                            <ul class="navbar-nav">
+                                <li class="menu__item">
+                                    <a class="menu__link" href="./about.html">Why Handwerk Connected</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="./membership.html">Membership</a>
+                                </li>
+                                <li class="menu__item has-submenu active">
+                                    <a class="menu__link" href="./team.html">Company
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7"><g><g><path d="M3.628.55a1 1 0 0 1 1.744 0l2.79 4.96A1 1 0 0 1 7.29 7H1.71a1 1 0 0 1-.872-1.49z"/></g></g></svg>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li class="submenu__item">
+                                            <a href="./team.html" class="submenu__link">Team & Vision</a>
+                                        </li>
+                                        <li class="submenu__item submenuAccordion">Press
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7"><g><g><path d="M3.628.55a1 1 0 0 1 1.744 0l2.79 4.96A1 1 0 0 1 7.29 7H1.71a1 1 0 0 1-.872-1.49z"/></g></g></svg>
+                                        </li>
+                                        <ul class="submenuAccordion__list">
+                                            <li class="submenuAccordion__item">
+                                                <a href="#" class="submenuAccordion__link">Releases</a>
+                                            </li>
+                                            <li class="submenuAccordion__item">
+                                                <a href="#" class="submenuAccordion__link">Review</a>
+                                            </li>
+                                        </ul>
+                                        <li class="submenu__item">
+                                            <a href="#" class="submenu__link">Become a part of our team</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="./contact.html">Contact</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="./blog.html">Blog</a>
+                                </li>
+                            </ul>
+                            <ul class="loginList">
+                                <li class="loginList__item">
+                                    <a class="loginList__link" href="#">Login</a>
+                                </li>
+                                <li class="loginList__item">
+                                    <button class="loginList__button">Registration</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="team">
+            <div class="team__item row">
+                <div class="team__image">
+                    <img src="./images/team1.png" alt="">
+                </div>
+                <div class="teamDesc">
+                    <div class="teamDesc__text">
+                        <h3 class="teamDesc__title">What makes us different?</h3>
+                        <p class="teamDesc__paragraph">
+                            The bundling of different competencies and experiences. Our team draws on extensive knowledge and diverse experiences from different industries. We are proud that we can now apply this knowledge for craft Connected and use.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="team__item row row--reverse">
+                <div class="teamDesc">
+                    <div class="teamDesc__text">
+                        <h3 class="teamDesc__title">The advantages at a glance:</h3>
+                        <p class="teamDesc__paragraph">The craft is in transition.
+                            Imagine over 500,000 craft businesses with a multiple of employees would be networked and cooperate.
+                            No less is our goal!
+                            <br>
+                            <br>
+                            Handwerk Connected will focus on the sectors SHK and Elektro in the first step. Other craft industries will follow in the middle of the year.
+                        </p>
+                    </div>
+                </div>
+                <div class="team__image">
+                    <img src="./images/team2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="teamPhoto">
+            <div class="heading teamPhoto__title">The team behind handwerk connected</div>
+            <div class="teamPhoto__image">
+                <img src="./images/team3.png" alt="">
+                <div class="teamPhoto__desc">Natascha Swientek, Andreas Urban, Manuel Fitzner und Nicole Dunker</div>
+            </div>
+        </section>
+        <section class="teamList">
+
+            <div class="teamList__item row row--reverse">
+                <div class="teamDesc">
+                    <div class="teamDesc__text">
+                        <h3 class="teamDesc__title">André Swientek</h3>
+                        <div class="teamDesc__post">Founder & Consultant</div>
+                        <p class="teamDesc__paragraph">
+                            André has over 16 years of experience in advising personnel services for international corporations. He previously worked as a product manager in the industry for just as long and started his working life with an apprenticeship as an electrician.
+                            <br>
+                            <br>
+                            The situation of skilled labor shortage and his accumulated expertise have driven him to bring together the advantages of all areas.
+                            <br>
+                            <br>
+                            "That which brings success in other industries with flexibility of the team, also works in the craft. When the craft gets connected, it gets stronger in itself. "
+                            <br>
+                            <br>
+                            He made the start for Handwerk Connected possible and set important impulses.
+                            <br>
+                            <br>
+                            André has no active role in Handwerk Connected. If required, however, he will continue to provide advice to the team with his expertise in the area of personnel services.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="team__image">
+                    <img src="./images/andre.png" alt="">
+                </div>
+            </div>
+
+            <div class="teamList__item row">
+                <div class="team__image">
+                    <img src="./images/nicole.png" alt="">
+                </div>
+                <div class="teamDesc">
+                    <div class="teamDesc__text">
+                        <h3 class="teamDesc__title">Nicole Dunker </h3>
+                        <div class="teamDesc__post">Founder and Managing Director</div>
+                        <p class="teamDesc__paragraph">
+                            Nicole has more than 12 years of experience with a well-known heating manufacturer in the areas of marketing, sales, e-commerce and digitization. During this time, she brought some new momentum to the market and successfully implemented it. She always had a lot of fun with a direct exchange with the craft and the market:
+                            <br>
+                            <br>
+                            "Over the last few years, I have seen first-hand how many experts from SHK Handwerk experienced the problem of skills shortages in the craft trades. Accordingly, the pain that the subject brings with it increases. Now is the time to solve these challenges through new ways - that's what we at Handwerk Connected will do together with the craft. "
+                            <br>
+                            <br>
+                            Nicole is part of the founding team of Handwerk Connected and also leads our HC team as Managing Director.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teamList__item row row--reverse">
+                <div class="teamDesc">
+                    <div class="teamDesc__text">
+                        <h3 class="teamDesc__title">Andreas Urban</h3>
+                        <div class="teamDesc__post">Founder and Head of IT & Development</div>
+                        <p class="teamDesc__paragraph">
+                            As a graduate in Business Informatics (FH), Andreas has been gaining extensive experience in various projects in various industries in Germany and abroad for more than 15 years. In addition to his self-employment, he worked as a product manager and IT manager in various companies.
+                            <br>
+                            <br>
+                            "With Handwerk Connected, we have created a platform that is unique and revolutionizes the craft, the IT challenges are immense and make the task a great challenge, and as a divisional manager, I can bring in my accumulated knowledge of recent years."
+                            <br>
+                            <br>
+                            Andreas is not only a founding member of Handwerk Connected, but also responsible for all technical topics of our cooperation platform as Head of IT & Development.
+                        </p>
+                    </div>
+                </div>
+                <div class="team__image">
+                    <img src="./images/andreas.png" alt="">
+                </div>
+            </div>
+
+            <div class="teamList__item row">
+                <div class="team__image">
+                    <img src="./images/natasha.png" alt="">
+                </div>
+                <div class="teamDesc">
+                    <div class="teamDesc__text">
+                        <h3 class="teamDesc__title">Natascha Swientek</h3>
+                        <div class="teamDesc__post">Founder, Marketing & Sales</div>
+                        <p class="teamDesc__paragraph">
+                            Natascha was able to gain 19 years of experience with a well-known heating manufacturer in marketing and sales after completing a banking apprenticeship and studying business administration. This experience was rounded off by a time in international marketing. Throughout her time, she focused on the close exchange and the targeted development of future-oriented services and services, together with the specialized trade. As a friend of open and honest words, her words of direct exchange with the trade partners were and are particularly important. "There are now so many different topics that owners of craft businesses have to deal with. To make sure everyone does not have to do that, I believe 100% in the power of networking - that's why Handwerk Connected is the right step into a strong future. "Natascha is one of the founding members and is responsible for marketing and sales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teamList__item row row--reverse">
+                <div class="teamDesc">
+                    <div class="teamDesc__text">
+                        <h3 class="teamDesc__title">Manuel Fitzner</h3>
+                        <div class="teamDesc__post">Sales Office & Service Support</div>
+                        <p class="teamDesc__paragraph">
+                            André has over 16 years of experience in advising personnel services for international corporations. He previously worked as a product manager in the industry for just as long and started his working life with an apprenticeship as an electrician.
+                            <br>
+                            <br>
+                            The situation of skilled labor shortage and his accumulated expertise have driven him to bring together the advantages of all areas.
+                            <br>
+                            <br>
+                            "That which brings success in other industries with flexibility of the team, also works in the craft. When the craft gets connected, it gets stronger in itself. "
+                            <br>
+                            <br>
+                            He made the start for Handwerk Connected possible and set important impulses.
+                            <br>
+                            <br>
+                            André has no active role in craft Connected. If required, however, he will continue to provide advice to the team with his expertise in the area of personnel services.
+                        </p>
+                    </div>
+                </div>
+                <div class="team__image">
+                    <img src="./images/andre.png" alt="">
+                </div>
+            </div>
+
+            <div class="teamList__item row">
+                <div class="team__image">
+                    <img src="./images/team4.png" alt="">
+                </div>
+                <div class="teamDesc">
+                    <div class="teamDesc__text">
+                        <h3 class="teamDesc__title">Our drive and mission statement</h3>
+                        <!--<div class="teamDesc__post">Founder and Managing Director</div>-->
+                        <p class="teamDesc__paragraph">
+                            As a service provider for the skilled trades, we want to solve the industry's biggest problem, the shortage of skilled workers, via our cooperation platform.
+                            <br>
+                            <br>
+                            Our motivation is our mission statement, which we believe in with all consequences:
+                            <br>
+                            <br>
+                            <ul class="teamDesc__list">
+                                <li class="teamDesc__item">We believe in the power of cooperation</li>
+                                <li class="teamDesc__item"> We believe in the strength and sustainability of the craft</li>
+                                <li class="teamDesc__item"> We believe that the specialized and flexible deployment of professionals is part of the solution to the growing skills shortage</li>
+                                <li class="teamDesc__item"> We are convinced that the combination of new ways and proven traditions promises success</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footerImpressum">
+                <li class="footerImpressum__item">
+                    <a href="#" class="footerImpressum__link">Imprint</a>
+                </li>
+                <li class="footerImpressum__item">
+                    <a href="#" class="footerImpressum__link">Privacy Policy</a>
+                </li>
+                <li class="footerImpressum__item">
+                    <a href="#" class="footerImpressum__link">Terms and Conditions</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.js"></script>
+</body>
+</html>

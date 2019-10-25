@@ -6,7 +6,37 @@
  * http://link-to-your-git-repo.com
  */
 
+// const handwerk = {
+//     init: function () {
+//         $(document).on('mouseup', this.closeSelect.bind(this));
+//         $(document).on('click', '.drop_select .i', this.chooseSelect.bind(this));
+//     },
+//     openSelect: function (e) {
+//         e.next('.drop_select').addClass('open');
+//     },
+//     closeSelect: function (e) {
+//         var container = $('.drop_select');
+//         if (container.has(e.target).length === 0) container.removeClass('open');
+//     },
+//     chooseSelect: function (e) {
+//         var target = $(e.currentTarget),
+//             value = target.text();
+//         $('.drop_select .i').removeClass('current');
+//         target.addClass('current');
+//         target.closest('.select').find('input').val(value);
+//         $('.drop_select').removeClass('open');
+//     }
+// };
+
+$(document).ready((function() {
+    $('#contactFields__select').select2();
+}));
+
 $(document).ready((function () {
+
+    $('.submenuAccordion').click((function () {
+       $(this).toggleClass('submenuAccordion__collapse').next().slideToggle();
+    }));
 
     $('.navbar-toggler').click((function(){
         $(this).toggleClass('open');
@@ -58,6 +88,12 @@ $(document).ready((function () {
             },
         ]
     });
+
+    // ACCORDION
+
+    $('.cardHeader').click((function () {
+        $(this).toggleClass('cardHeader__collapse').next().slideToggle();
+    }));
 
     $('.knownFromCarousel').slick({
         arrows: true,
