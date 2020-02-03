@@ -15,11 +15,9 @@
 // document.addEventListener('mousemove', parallax);
 
 $(document).ready((function () {
-    window.onload = function() {
-        setTimeout((function(){
-            $('.getBonus__images').addClass('start-animation');
-        }));
-    };
+
+    $('.getBonus__images').addClass('start-animation');
+
 
     if (jQuery(window).width() > 1199) {
         $(window).on('mousemove resize', (function (e) {
