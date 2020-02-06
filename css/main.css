@@ -583,6 +583,7 @@ h2:before {
 .portfolioCard__image {
   position: relative;
   width: 100%;
+  height: 220px;
 }
 
 /* line 380, src/sass/main.scss */
